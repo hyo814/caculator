@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+<html><!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>기본 계산기 html</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="src/main.js"></script>
+</head>
+<body>
+<div>
+<TABLE border="2">
+<!--// onclick이면 추가로 display, 입력이 됩니다. -->
+ 
+  <TBODY>
+  <TR>
+    <TD colspan="2">입력<INPUT id="display" type="text">			 </TD>
+    <TD colspan="2">결과<INPUT id="result" type="text">				 </TD></TR>
+  <TR>
+    <TD colspan="3"onclick="reset()">AC</TD> 
+	<!-- 초기화가 됩니다. -->
+    <TD onclick="add('/')">/</TD>
+ 
+ </TR>
+  <TR>
+    <TD onclick="add(7)">7</TD>
+    <TD onclick="add(8)">8</TD>
+    <TD onclick="add(9)">9</TD>
+    <TD onclick="add('*')">*</TD>
+  </TR>
+  <TR>
+    <TD onclick="add(4)">4</TD>
+    <TD onclick="add(5)">5</TD>
+    <TD onclick="add(6)">6</TD>
+    <TD onclick="add('-')">-</TD>
+  </TR>
+  <TR>
+    <TD onclick="add(1)">1</TD>
+    <TD onclick="add(2)">2</TD>
+    <TD onclick="add(3)">3</TD>
+    <TD onclick="add('+')">+</TD>
+  </TR>
+  <TR>
+    <TD colspan="2" onclick="add(0)">0</TD>
+    
+	<TD onclick="add('.')">.</TD>
+    <TD onclick="caculate()">=</TD>
+	<!-- 결과를 입력할 예정입니다. -->
+	</TR></TBODY></TABLE>
+	</div>
+	</BODY></HTML>
+
+
