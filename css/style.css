@@ -1,0 +1,26 @@
+div {
+    background-color: pink;
+    height: 215px;
+    width: 400px;
+}
+
+
+
+table {
+    border-collapse: collapse;
+}
+
+td {
+    padding: 5px 10px;
+    text-align: center;
+    color: black;
+}
+
+input {
+    text-align: center;
+    border: none;
+}
+
+input:focus {
+    outline: none;
+}
